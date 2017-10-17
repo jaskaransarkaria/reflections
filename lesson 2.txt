@@ -1,0 +1,30 @@
+lesson 2
+
+
+What happens when you initialize a repository? Why do you need to do it?
+
+It begins to store the meta data(history) in a hidden folder which makes up the bulk of the repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is what you are actually changing right there and then whereas the working directory contradictorily to what it's name suggests is the version from which you began your changes and tinkering and then you have the the repoistory which is like a stack of history for each change
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+By making the logical change and then adding it to the staging area you monitor changes using gitt diff (no arguments) to ensure you have not made lots of changes before you commit
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches will help me to organise me thoughts and multiple layers of changes, it'll stop me tying up different problems by being able to isolate each change
+
+How do the diagrams help you visualize the branch structure?
+
+branch diagrams alongside an understanding of git log help me to understand that certain commits may be "unreachable" and therefore it is impotant to know where abouts I might be working at any one point especially if i dont want to lose any commits when working in detached Head mode.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+it updates the different branches one which may have been of experimentation and the second with one which is your base your working model your master. It seems crude and may get things wrong? I feel that because it just deletes what has been deleted in one it will delete it in another and if it's been added it will just automatically add it to the other, but what if adding that fucks it up because of the interaction between and and removing in different spots. I dunno something seems not right but also does seem like an extremely useful tool.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually? 
+
+the pros is that it can save time. the cons is that it might not correctly merge and it may produce bugs, conflicts or inconsistencies in the merged code which could take time to resolve. Time is both a pro and a con.

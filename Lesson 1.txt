@@ -1,0 +1,52 @@
+Lesson 1
+
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Shows only the differences in the two files so you can quickly check through them and cut
+out the old stuff that you know works.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    with changes comes complications reverting to the old can return you to a working state
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    If it auto saves and overwrites pervious changes then that could mean that you lose old versions and save the new mistakes
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    so you have access to different versions of the same thing and can work on the permutation that suits you the best
+
+How can you use the commands git log and git diff to view the history of files?
+
+    not sure what git log does but git diff allows you to see what has changed if a problem occurs
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Beacause you know you have a back up
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    developing code
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+notice patterns in development and notice how things are interacting with each other in more controlled previous versions
+
+How can you use the commands git log and git diff to view the history of files?
+
+	git log accesses the history of commits in a repository and git diff helps to compare and quick;ly identify the changes made between each commit
+
+How might using version control make you more confident to make changes that could break something?
+
+	Knowing you have an easily accessible back up means you can be confident and experimental with changes
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	
+	keeping track of changes, uploaded code to github efficiently and also developing my code in a more confident and quicker way
