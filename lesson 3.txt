@@ -10,3 +10,7 @@ Being in control of what your working on in a controlled enviroment is important
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 A fork takes a repo on GitHub and copys the repo to you profile on GitHub. A Clone takes a repo and copies is to your local machine. A Branch is within a repo and is a variant that builds on other code.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It is a benefit if you are working offline, so you can continue working on the code but also have the "origin/master" to refer back to as you make changes.
