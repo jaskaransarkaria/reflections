@@ -14,3 +14,7 @@ A fork takes a repo on GitHub and copys the repo to you profile on GitHub. A Clo
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It is a benefit if you are working offline, so you can continue working on the code but also have the "origin/master" to refer back to as you make changes.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+With out using Git/ Github you man have to email and manually write out instructions indicating what and where you have changed things rather than having the system of labels of Git, also co-ordinating larger projects without Git/GitHub would be a lot harder as various collaborators wouldn't have an easy way of tracing what other changes may be happening simultaneously on the project.
