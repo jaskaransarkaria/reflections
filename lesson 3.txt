@@ -6,3 +6,7 @@ And also to back up your work, like backing up to a cloud.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Being in control of what your working on in a controlled enviroment is important if you and somebody else were both on the same branch the changes they make could mess up and interfere with code which you might be working on. Timing your pulls yourself gives the programmer control over when and what they update by checking on the commit messages. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork takes a repo on GitHub and copys the repo to you profile on GitHub. A Clone takes a repo and copies is to your local machine. A Branch is within a repo and is a variant that builds on other code.
