@@ -18,3 +18,7 @@ It is a benefit if you are working offline, so you can continue working on the c
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 With out using Git/ Github you man have to email and manually write out instructions indicating what and where you have changed things rather than having the system of labels of Git, also co-ordinating larger projects without Git/GitHub would be a lot harder as various collaborators wouldn't have an easy way of tracing what other changes may be happening simultaneously on the project.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Use separate branches to experiement and differentiate this new aspect of your code from the base/ master/ backbone of working code. testing them and ironing out conflicts between the new branche and the master before merging the two back together providing an imporved master without risking losing everything you have already created in the master. Also other collaborators can enjoy this freedom to experiement without destroying the original.
